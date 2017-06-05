@@ -1,24 +1,23 @@
 # Image-Processing-Matlab
 
 
-1. Histogram transformation:
+## Histogram transformation:
 
-  1.1 Linear stretching:
+1. Linear stretching:
   
   ![alt text](https://github.com/Shellyhan/Image-Processing-Matlab/raw/master/results/1.jpg)
   
-  1.2 Histogram equalization:
+2. Histogram equalization:
   
   ![alt text](https://github.com/Shellyhan/Image-Processing-Matlab/raw/master/results/2.jpg)
   
-2. Edge detection:
+## Edge detection:
 
-  
   Three different edge operators, including Prewitt’s, Laplacian of Gaussian, and Canny, are applied to both original and Gaussian smoothed images. Following are the results of edge detection.
   
   ![alt text](https://github.com/Shellyhan/Image-Processing-Matlab/raw/master/results/3.jpg)
 
-Prewitt’s edge operator:
+### Prewitt’s edge operator:
 
 1.	Reduces some effect of noise with local averaging, but losses part of main edges
 
@@ -26,7 +25,7 @@ Prewitt’s edge operator:
 
 3.	Detected edge is broken into sections
 
-Laplacian of Gaussian operator:
+### Laplacian of Gaussian operator:
 
 1.	Fails to filter out noises, performance improved a lot on smoothed image
 
@@ -34,7 +33,7 @@ Laplacian of Gaussian operator:
 
 3.	Poor localization of edges due to a lack of directional information
 
-Canny edge operator:
+### Canny edge operator:
 
 1.	Removes partial noise
 
